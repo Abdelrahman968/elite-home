@@ -1,0 +1,42 @@
+/* ============================================
+    Custom - MEDIA QUERIES
+   ============================================ */
+@media (min-width: 992px) {
+    #desktop-mega-menu {
+        position: absolute;
+        left: 22%;
+        transform: translateX(-50%);
+        top: 130%;
+        width: 1000px;
+        background: white;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        margin-top: 0.5rem;
+        z-index: 50;
+        height: 80vh;
+        overflow: auto;
+    }
+
+    .form {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #desktop-mega-menu {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-60%);
+        top: 130%;
+        width: 1200px;
+        background: white;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        margin-top: 0.5rem;
+        z-index: 50;
+        height: 80vh;
+        overflow: auto;
+    }
+}
